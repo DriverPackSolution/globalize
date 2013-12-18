@@ -127,8 +127,8 @@ Dry tests show Globalize also works on the following browsers:
 
 If you find any bugs, please just [let us
 know](https://github.com/jquery/globalize/issues). We'll be glad to fix them for
-the officially supported browsers, or at least update the documentation for the
-unsupported ones.
+the officially supported browsers, or at least to update the documentation for
+the unsupported ones.
 
 
 <a name="usage"></a>
@@ -348,7 +348,7 @@ Globalize.format( new Date( 2010, 10, 30, 17, 55 ), { datetime: "short" }, "de" 
 
 Comparison between different locales.
 
-| locale | `Globalize.format( new Date( 2010, 10, 1, 17, 55 ), { datetime: "short" }` |
+| locale | `Globalize.format( new Date( 2010, 10, 1, 17, 55 ), { datetime: "short" } )` |
 | --- | --- |
 | **en** | `"11/1/10, 5:55 PM"` |
 | **en_GB** | `"01/11/2010 17:55"` |
